@@ -17,8 +17,8 @@ const illustration = {
 const greeting = {
   username: "Ighomena Daniel Odebala",
   title: "Hi there",
-  subTitle: "I'm Ighomena, a Junior Software Developer 🚀 I have experience in developing Web Applications using React Js, Flask and Django. I am constantly learning and expanding my knowledge on other libraries and developing my skills. This is my portfolio, here you would find links to all my socials and details about projects I have worked on or currently working on. Feel free to explore and hopefully, looking forward to hearing from you cheers.",
-  resumeLink: "https://drive.google.com/file/d/1ofFdKF_mqscH8WvXkSObnVvC9kK7Ldlu/view?usp=sharing",
+  subTitle: "I'm Ighomena, a Junior Software Engineer 🚀 I have experience in developing web applications using Django, React Js, and Flask. I am constantly learning and expanding my knowledge on other libraries and developing my skills. This is my portfolio, here you would find links to all my socials and details about projects I have worked on or currently working on. Feel free to explore and hopefully, looking forward to hearing from you cheers.",
+  resumeLink: "",
   displayGreeting: true // Set false to hide this section, defaults to true
 };
 
@@ -41,14 +41,14 @@ const socialMediaLinks = {
 
 const skillsSection = {
   title: "What I do",
-  subTitle: "PASSIONATE JUNIOR DEVELOPER IMPROVING HIS SKILLS REGULARLY WITH PROJECTS.",
+  subTitle: "PASSIONATE SOFTWARE ENGINEER IMPROVING HIS SKILLS REGULARLY WITH PROJECTS.",
   skills: [
     emoji(
-      "⚡ Develop interactive Front end / User Interfaces for your web and mobile applications."
+      "⚡ Deliver interactive and responsive web applications using latest technology."
     ),
-    emoji("⚡ Develop responsive web pages with latest technologies."),
+    emoji("⚡ Optimise website to be more SEO friendly contents."),
     emoji(
-      "⚡ Develop secure website using SSL Certificates and Password hashing."
+      "⚡ Develop secure website with latest certificates and best practices."
     )
   ],
 
@@ -63,38 +63,46 @@ https://fontawesome.com/icons?d=gallery */
       skillName: "CSS3",
       fontAwesomeClassname: "fab fa-css3-alt"
     },
-    // {
-    //   skillName: "sass",
-    //   fontAwesomeClassname: "fab fa-sass"
-    // },
+    {
+      skillName: "Bootstrap",
+      fontAwesomeClassname: "fab fa-bootstrap"
+    },
     {
       skillName: "JavaScript",
       fontAwesomeClassname: "fab fa-js"
     },
     {
-      skillName: "React Js",
-      fontAwesomeClassname: "fab fa-react"
+      skillName: "Java",
+      fontAwesomeClassname: "fab fa-java"
     },
     {
       skillName: "Python",
       fontAwesomeClassname: "fab fa-python"
     },
     {
+      skillName: "React Js",
+      fontAwesomeClassname: "fab fa-react"
+    },
+    {
       skillName: "GitHub",
       fontAwesomeClassname: "fab fa-github"
     },
-    // {
-    //   skillName: "npm",
-    //   fontAwesomeClassname: "fab fa-npm"
-    // },
-    // {
-    //   skillName: "sql-database",
-    //   fontAwesomeClassname: "fas fa-database"
-    // },
-    // {
-    //   skillName: "firebase",
-    //   fontAwesomeClassname: "fas fa-fire"
-    // }
+    {
+      skillName: "sql-database",
+      fontAwesomeClassname: "fas fa-database"
+    },
+    {
+      skillName: "firebase",
+      fontAwesomeClassname: "fas fa-fire"
+    },
+    {
+      skillName: "php",
+      fontAwesomeClassname: "fab fa-php"
+    },
+    {
+      skillName: "Laravel",
+      fontAwesomeClassname: "fab fa-laravel"
+    },
   ],
   display: true // Set false to hide this section, defaults to true
 };
@@ -132,20 +140,16 @@ const techStack = {
   viewSkillBars: true, //Set it to true to show Proficiency Section
   experience: [{
       Stack: "Frontend / Design", //Insert stack or technology you have experience in
-      progressPercentage: "70%" //Insert relative proficiency in percentage
+      progressPercentage: "80%" //Insert relative proficiency in percentage
     },
     {
       Stack: "Backend",
-      progressPercentage: "45%"
+      progressPercentage: "55%"
     },
     {
       Stack: "Programming",
-      progressPercentage: "55%"
+      progressPercentage: "70%"
     },
-    {
-      Stack: "SEO",
-      progressPercentage: "55%"
-    }
   ],
   displayCodersrank: true // Set true to display codersrank badges section need to changes your username in src/containers/skillProgress/skillProgress.js:17:62, defaults to false
 };
@@ -155,52 +159,51 @@ const techStack = {
 const workExperiences = {
   display: true, //Set it to true to show workExperiences Section
   experience: [{
-      role: "Web Designer",
+      role: "Web Developer",
       company: "Electric Discussions",
       companylogo: require("./assets/images/edLogo.jpg"),
-      date: "September 2020 – Present",
+      date: "September 2020 - Present",
       desc: "Electric Discussions is an online community of aspiring individuals, seeking to grow and mature their understanding of issues that affect every single individual, as they go through life.",
       descBullets: [
         // "Disscussing life chanllenges",
         // "Developing communication skills",
         // "Creating tutorials",
-        <
-        ExternalLink href = "https://ed.ighomena.me/"
-        class = "major" > Visit Electric Discussions < /ExternalLink>,
+        <ExternalLink href="https://ed.ighomena.me/" class="major">Visit Electric Discussions</ExternalLink>,
       ],
     },
     {
-      role: "Web Designer",
+      role: "Full Stack Web Developer",
       company: "In4menow",
-      companylogo: require("./assets/images/favicon.png"),
+      companylogo: require("./assets/images/in4menow.png"),
       date: "July 2021 - Present",
-      desc: "A blog that aim to provide quality and useful information to help all people make decisions that help them live quality lives, we are here to help you scour the world and find what’s interesting, good, genuine, durable, and suitable for you.",
-      descBullets: [ <
-        ExternalLink href = "http://in4menow.ighomena.me/"
-        class = "major" > Visit In4menow < /ExternalLink>,
+      desc: "A blog that aim to provide quality and useful information to help all people make decisions that help them live quality lives, we are here to help you scour the world and find what's interesting, good, genuine, durable, and suitable for you.",
+      descBullets: [ <ExternalLink href="http://in4menow.ighomena.me/" class="major">Visit In4menow</ExternalLink>,
       ],
 
     },
-    // {
-    //   role: "Web Designer",
-    //   company: "Click Pie",
-    //   companylogo: require("./assets/images/comingSoon.gif"),
-    //   date: "May 2021",
-    //   desc:
-    //     "On going...",
-    //   descBullets: [
-    //     <ExternalLink href="https://clickpie.co.uk" class="major">Visit Click Pie</ExternalLink>,
-    //   ],
+    {
+      role: "Full Stack Web Developer",
+      company: "Best IT Teacher",
+      companylogo: require("./assets/images/pcLogo.jpg"),
+      date: "Apr 2022 - Present",
+      desc:
+        "Best IT Teacher is a web app that allows students to vote for the best teacher for the academic year. Users can register, login and cast vote and the can also view the result after voting is finished.",
+      descBullets: [
+        <ExternalLink href="https://sleepy-sands-97119.herokuapp.com/" class="major">Visit Best IT Teacher</ExternalLink>,
+      ],
+    },
+    {
+      role: "Web Developer",
+      company: "AI Parent",
+      companylogo: require("./assets/images/aiparent.png"),
+      date: "Feb 2023 - Present",
+      desc:
+        "AI Parent is a web app that allows parents to generate ChatGPT content to educate or entertain their kids. Users can enter a prompt and the app will generate a story based on the topic, or they could select from a list of pre-generated prompts.",
+      descBullets: [
+        <ExternalLink href="https://aiparent.ighomena.me/" class="major">Visit AI Parent</ExternalLink>,
+      ],
 
-    // },
-    // {
-    //   role: "Junior Information Security & Systems Representative",
-    //   company: "Vodafone",
-    //   companylogo: require("./assets/images/vodafoneLogo.png"),
-    //   date: "November 2018 – July 2019",
-    //   desc:
-    //     "I've conducted internal audit making sure the organization is compliant with the GDPR."
-    // }
+    },
   ]
 };
 
@@ -255,7 +258,7 @@ const achievementSection = {
       subtitle: "Generates a secure password, choose password length, add numbers and symbols.",
       image: require("./assets/images/python.png"),
       footerLink: [{
-        name: "Link",
+        name: "View",
         url: "https://replit.com/@Ighomena/Day-5-Password-Generator"
       }]
     },
@@ -265,7 +268,7 @@ const achievementSection = {
       subtitle: "I split any bill between friends, i.e resturant bills. Psst! I Can split bills too.",
       image: require("./assets/images/python.png"),
       footerLink: [{
-        name: "Link",
+        name: "View",
         url: "https://replit.com/@Ighomena/day-4-2-Resturant-bill-payer"
       }]
     },
@@ -275,7 +278,7 @@ const achievementSection = {
       subtitle: "Play Rock Paper Scissors with the computer.",
       image: require("./assets/images/python.png"),
       footerLink: [{
-        name: "Link",
+        name: "View",
         url: "https://replit.com/@Ighomena/Day-4-Rock-Paper-Scissors"
       }]
     },
@@ -285,7 +288,7 @@ const achievementSection = {
       subtitle: "Calculate the love score with your partner or crush.",
       image: require("./assets/images/python.png"),
       footerLink: [{
-        name: "Link",
+        name: "View",
         url: "https://replit.com/@Ighomena/day-3-5-Love-calculator"
       }]
     },
@@ -295,7 +298,7 @@ const achievementSection = {
       subtitle: "Can you pass the obstacles to find the treasure?",
       image: require("./assets/images/python.png"),
       footerLink: [{
-        name: "Link",
+        name: "View",
         url: "https://replit.com/@Ighomena/day-3-Treasure-island"
       }]
     },
@@ -305,7 +308,7 @@ const achievementSection = {
       subtitle: "Guess the hidden word, or get the noose.",
       image: require("./assets/images/python.png"),
       footerLink: [{
-        name: "Link",
+        name: "View",
         url: "https://replit.com/@Ighomena/Day-7-Hangman"
       }]
     },
@@ -315,7 +318,7 @@ const achievementSection = {
       subtitle: "Encode and decode messages with friends.",
       image: require("./assets/images/python.png"),
       footerLink: [{
-        name: "Link",
+        name: "View",
         url: "https://replit.com/@Ighomena/Day-8-Caesar-cipher"
       }]
     },
@@ -325,12 +328,12 @@ const achievementSection = {
       subtitle: "Try beat the computer in a game of Blackjack.",
       image: require("./assets/images/python.png"),
       footerLink: [{
-        name: "Link",
+        name: "View",
         url: "https://replit.com/@Ighomena/Day-10-Blackjack"
       }]
     }
   ],
-  display: true // Set false to hide this section, defaults to true
+  display: true // Set false to hide this section, defaults to true.
 };
 
 // Blogs Section
@@ -378,7 +381,7 @@ const contactInfo = {
 // Twitter Section
 
 const twitterDetails = {
-  userName: "davidrakosi_", //Replace "twitter" with your twitter username without @
+  userName: "dhee_tree", //Replace "twitter" with your twitter username without @
   display: false // Set true to display this section, defaults to false
 };
 
