@@ -189,7 +189,7 @@ const workExperiences = {
       desc:
         "Best IT Teacher is a web app that allows students to vote for the best teacher for the academic year. Users can register, login and cast vote and the can also view the result after voting is finished.",
       descBullets: [
-        <ExternalLink href="https://sleepy-sands-97119.herokuapp.com/" class="major">Visit Best IT Teacher</ExternalLink>,
+        <ExternalLink href="https://iegvote.ighomena.me/" class="major">Visit Best IT Teacher</ExternalLink>,
       ],
     },
     {
