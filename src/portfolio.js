@@ -17,7 +17,7 @@ const illustration = {
 const greeting = {
   username: "Ighomena Daniel Odebala",
   title: "Hi there",
-  subTitle: "I'm Ighomena, a Junior Software Engineer 🚀 I have experience in developing web applications using Django, React Js, and Flask. I am constantly learning and expanding my knowledge on other libraries and developing my skills. This is my portfolio, here you would find links to all my socials and details about projects I have worked on or currently working on. Feel free to explore and hopefully, looking forward to hearing from you cheers.",
+  subTitle: "I'm Ighomena, a Junior Software Engineer 🚀 I have experience in developing web applications using Django, Laravel, React Js, and Flask. I am constantly learning and expanding my knowledge on other libraries and developing my skills. This is my portfolio, here you would find links to all my socials and details about projects I have worked on or currently working on. Feel free to explore and hopefully, looking forward to hearing from you cheers.",
   resumeLink: "",
   displayGreeting: true // Set false to hide this section, defaults to true
 };
