@@ -173,16 +173,6 @@ const workExperiences = {
     },
     {
       role: "Full Stack Web Developer",
-      company: "In4menow",
-      companylogo: require("./assets/images/in4menow.png"),
-      date: "July 2021 - Present",
-      desc: "A blog that aim to provide quality and useful information to help all people make decisions that help them live quality lives, we are here to help you scour the world and find what's interesting, good, genuine, durable, and suitable for you.",
-      descBullets: [ <ExternalLink href="http://in4menow.ighomena.me/" class="major">Visit In4menow</ExternalLink>,
-      ],
-
-    },
-    {
-      role: "Full Stack Web Developer",
       company: "Best IT Teacher",
       companylogo: require("./assets/images/pcLogo.jpg"),
       date: "Apr 2022 - Present",
