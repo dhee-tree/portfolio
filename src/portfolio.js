@@ -194,6 +194,17 @@ const workExperiences = {
       ],
 
     },
+    {
+      role: "Full Stack Web Developer",
+      company: "NOEL",
+      companylogo: require("./assets/images/NOEL Logo.png"),
+      date: "Dec 2023 - Present",
+      desc:
+        "NOEL is a platform for family and friends to play Secret Santa remotely accross the world.",
+      descBullets: [
+        <ExternalLink href="https://noel.ighomena.me/" class="major">Visit NOEL</ExternalLink>,
+      ],
+    },
   ]
 };
 
