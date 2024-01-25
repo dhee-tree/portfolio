@@ -158,28 +158,16 @@ const techStack = {
 
 const workExperiences = {
   display: true, //Set it to true to show workExperiences Section
-  experience: [{
-      role: "Web Developer",
-      company: "Electric Discussions",
-      companylogo: require("./assets/images/edLogo.jpg"),
-      date: "September 2020 - Present",
-      desc: "Electric Discussions is an online community of aspiring individuals, seeking to grow and mature their understanding of issues that affect every single individual, as they go through life.",
-      descBullets: [
-        // "Disscussing life chanllenges",
-        // "Developing communication skills",
-        // "Creating tutorials",
-        <ExternalLink href="https://ed.ighomena.me/" class="major">Visit Electric Discussions</ExternalLink>,
-      ],
-    },
+  experience: [
     {
       role: "Full Stack Web Developer",
-      company: "Best IT Teacher",
-      companylogo: require("./assets/images/pcLogo.jpg"),
-      date: "Apr 2022 - Present",
+      company: "NOEL",
+      companylogo: require("./assets/images/NOEL Logo.png"),
+      date: "Dec 2023 - Present",
       desc:
-        "Best IT Teacher is a web app that allows students to vote for the best teacher for the academic year. Users can register, login and cast vote and the can also view the result after voting is finished.",
+      "NOEL is a platform for family and friends to play Secret Santa remotely accross the world.",
       descBullets: [
-        <ExternalLink href="https://iegvote.ighomena.me/" class="major">Visit Best IT Teacher</ExternalLink>,
+        <ExternalLink href="https://noel.ighomena.me/" class="major">Visit NOEL</ExternalLink>,
       ],
     },
     {
@@ -196,13 +184,23 @@ const workExperiences = {
     },
     {
       role: "Full Stack Web Developer",
-      company: "NOEL",
-      companylogo: require("./assets/images/NOEL Logo.png"),
-      date: "Dec 2023 - Present",
+      company: "Best IT Teacher",
+      companylogo: require("./assets/images/pcLogo.jpg"),
+      date: "Apr 2022 - Present",
       desc:
-        "NOEL is a platform for family and friends to play Secret Santa remotely accross the world.",
+      "Best IT Teacher is a web app that allows students to vote for the best teacher for the academic year. Users can register, login and cast vote and the can also view the result after voting is finished.",
       descBullets: [
-        <ExternalLink href="https://noel.ighomena.me/" class="major">Visit NOEL</ExternalLink>,
+        <ExternalLink href="https://iegvote.ighomena.me/" class="major">Visit Best IT Teacher</ExternalLink>,
+      ],
+    },
+    {
+      role: "Web Developer",
+      company: "Electric Discussions",
+      companylogo: require("./assets/images/edLogo.jpg"),
+      date: "September 2020 - Present",
+      desc: "Electric Discussions is an online community of aspiring individuals, seeking to grow and mature their understanding of issues that affect every single individual, as they go through life.",
+      descBullets: [
+        <ExternalLink href="https://ed.ighomena.me/" class="major">Visit Electric Discussions</ExternalLink>,
       ],
     },
   ]
