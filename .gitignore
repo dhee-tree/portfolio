@@ -2,6 +2,5 @@
 /build
 .vscode/
 package-lock.json
-package.json
 portfolio.png
 yarn.lock
