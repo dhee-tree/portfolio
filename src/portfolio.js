@@ -26,7 +26,7 @@ const greeting = {
 
 const socialMediaLinks = {
   github: "https://github.com/dhee-tree",
-  linkedin: "https://www.linkedin.com/in/ighomena-daniel-odebala/",
+  linkedin: "https://www.linkedin.com/in/ighomena/",
   twitter: 'https://twitter.com/ighomena__',
   instagram: 'https://www.instagram.com/dhee_tree/',
   // gmail: "ighoodes@gmail.com",
