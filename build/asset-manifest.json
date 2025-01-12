@@ -1,0 +1,42 @@
+{
+  "files": {
+    "main.css": "/static/css/main.1dc92e0e.chunk.css",
+    "main.js": "/static/js/main.d60dde3f.chunk.js",
+    "main.js.map": "/static/js/main.d60dde3f.chunk.js.map",
+    "runtime-main.js": "/static/js/runtime-main.04dd6f80.js",
+    "runtime-main.js.map": "/static/js/runtime-main.04dd6f80.js.map",
+    "static/js/2.98210028.chunk.js": "/static/js/2.98210028.chunk.js",
+    "static/js/2.98210028.chunk.js.map": "/static/js/2.98210028.chunk.js.map",
+    "static/css/3.3a26ebde.chunk.css": "/static/css/3.3a26ebde.chunk.css",
+    "static/js/3.f1d74b5c.chunk.js": "/static/js/3.f1d74b5c.chunk.js",
+    "static/js/3.f1d74b5c.chunk.js.map": "/static/js/3.f1d74b5c.chunk.js.map",
+    "static/css/4.ea3dbbf2.chunk.css": "/static/css/4.ea3dbbf2.chunk.css",
+    "static/js/4.5c825884.chunk.js": "/static/js/4.5c825884.chunk.js",
+    "static/js/4.5c825884.chunk.js.map": "/static/js/4.5c825884.chunk.js.map",
+    "index.html": "/index.html",
+    "precache-manifest.c08ce04ce71b9e960dd32d156cb4192a.js": "/precache-manifest.c08ce04ce71b9e960dd32d156cb4192a.js",
+    "service-worker.js": "/service-worker.js",
+    "static/css/3.3a26ebde.chunk.css.map": "/static/css/3.3a26ebde.chunk.css.map",
+    "static/css/4.ea3dbbf2.chunk.css.map": "/static/css/4.ea3dbbf2.chunk.css.map",
+    "static/css/main.1dc92e0e.chunk.css.map": "/static/css/main.1dc92e0e.chunk.css.map",
+    "static/js/2.98210028.chunk.js.LICENSE.txt": "/static/js/2.98210028.chunk.js.LICENSE.txt",
+    "static/media/index.css": "/static/media/Montserrat-Regular.ee653992.ttf",
+    "static/media/aiparent.png": "/static/media/aiparent.b9e36134.png",
+    "static/media/contactMailDark.svg": "/static/media/contactMailDark.51cf7192.svg",
+    "static/media/developerActivity.svg": "/static/media/developerActivity.59389695.svg",
+    "static/media/edLogo.jpg": "/static/media/edLogo.065f55e0.jpg",
+    "static/media/elon.jpg": "/static/media/elon.5640ef50.jpg",
+    "static/media/golang.png": "/static/media/golang.0af75bdc.png",
+    "static/media/ighomena.jpg": "/static/media/ighomena.4f167e63.jpg",
+    "static/media/nextJS.png": "/static/media/nextJS.1c871f39.png",
+    "static/media/python.png": "/static/media/python.c290a443.png",
+    "static/media/skill.svg": "/static/media/skill.34409398.svg",
+    "static/media/zeus.jpg": "/static/media/zeus.81875da9.jpg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.04dd6f80.js",
+    "static/js/2.98210028.chunk.js",
+    "static/css/main.1dc92e0e.chunk.css",
+    "static/js/main.d60dde3f.chunk.js"
+  ]
+}
